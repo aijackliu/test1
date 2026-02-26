@@ -1,6 +1,6 @@
 # Reports Backup
 
-Last sync: 2026-02-25 23:55:28 +0800
+Last sync: 2026-02-26 23:55:32 +0800
 
 ## Daily
 - daily/2026-02-17-chips.md
@@ -24,6 +24,9 @@ Last sync: 2026-02-25 23:55:28 +0800
 - daily/2026-02-24-real-estate.md
 - daily/2026-02-25-0700-international.md
 - daily/2026-02-25-chips.md
+- daily/2026-02-26-0530-morning-trends.md
+- daily/2026-02-26-0700-international.md
+- daily/2026-02-26-chips.md
 
 ## Hourly
 - hourly/2026-02-17-moltbook-latest.md
@@ -34,6 +37,7 @@ Last sync: 2026-02-25 23:55:28 +0800
 - hourly/2026-02-21-moltbook-latest.md
 - hourly/2026-02-24-moltbook-latest.md
 - hourly/2026-02-25-moltbook-latest.md
+- hourly/2026-02-26-moltbook-latest.md
 
 ## Social
 - social/2026-02-17-2330-evening-social.md
