@@ -1,0 +1,81 @@
+# Signal Engine Scan — 2026-03-11 08:15 Asia/Taipei
+
+## Scan Status
+- Prompt: `/Users/claireye/clawd/prompts/intel/signal-engine.prompt.md`
+- Run time: 2026-03-11 08:15 Asia/Taipei
+- Coverage: AI Infra / Crypto Flow / Macro-Oil / Taiwan Semi / Chinese Signal
+- Data sources used: Google News RSS headline scan
+- Data gap: `web_search` still unavailable (missing Perplexity API key); no X velocity data in this run.
+
+### AI Infra
+- 類別：AI Infra
+- 熱度分：87/100
+- 等級：L1
+- 來源：Bloomberg, CNBC, TechRepublic
+- 命中關鍵字：oracle, openai, data center, stargate, nvidia, debt
+- 摘要（2-3 句）：本輪抓取到 8 則 headline，跨來源數 8。主要敘事集中在 Oracle and OpenAI End Plans to Expand Flagship Data Center - Bloomberg / Oracle is building yesterday’s data centers with tomorrow’s debt - CNBC。
+- 判讀（1-2 句）：目前以 RSS headline 初判，需等待官方公告或一線媒體深度稿確認。
+- 反向驗證（反證/待確認項）：缺 X 即時流與互動增速資料；需補官方/財報/監管文件。
+- 建議動作（Follow-up）：下一輪補強高權重來源，若同主題持續升溫再考慮升級。
+- 評分拆解：帳號權重 27 / 關鍵字 25 / 熱度速度 20 / 跨來源確認 15 / 去雜訊 0 => 87
+
+### Crypto Flow
+- 類別：Crypto Flow
+- 熱度分：54/100
+- 等級：L3
+- 來源：TradingView, The Block, MEXC
+- 命中關鍵字：bitcoin, etf, outflow, exchange, stablecoin, liquidity
+- 摘要（2-3 句）：本輪抓取到 8 則 headline，跨來源數 6。主要敘事集中在 Bitcoin manipulation claims face pushback as ETFs snap 5-week outflow run: Finance Redefined - TradingView / The year in data: 5 charts that show how crypto changed in 2025 - The Block。
+- 判讀（1-2 句）：目前以 RSS headline 初判，需等待官方公告或一線媒體深度稿確認。
+- 反向驗證（反證/待確認項）：缺 X 即時流與互動增速資料；需補官方/財報/監管文件。
+- 建議動作（Follow-up）：下一輪補強高權重來源，若同主題持續升溫再考慮升級。
+- 評分拆解：帳號權重 8 / 關鍵字 25 / 熱度速度 14 / 跨來源確認 15 / 去雜訊 -8 => 54
+
+### Macro / Oil
+- 類別：Macro / Oil
+- 熱度分：68/100
+- 等級：L2
+- 來源：Investing.com Australia, FXStreet, ING THINK economic and financial analysis | ING THINK
+- 命中關鍵字：oil, wti, brent, opec, cpi, fed
+- 摘要（2-3 句）：本輪抓取到 8 則 headline，跨來源數 6。主要敘事集中在 CPI data, oil inventories among economic data due Wednesday By Investing.com - Investing.com Australia / WTI sees sharp spike as Middle East tensions continue to sizzle - FXStreet。
+- 判讀（1-2 句）：目前以 RSS headline 初判，需等待官方公告或一線媒體深度稿確認。
+- 反向驗證（反證/待確認項）：缺 X 即時流與互動增速資料；需補官方/財報/監管文件。
+- 建議動作（Follow-up）：下一輪補強高權重來源，若同主題持續升溫再考慮升級。
+- 評分拆解：帳號權重 18 / 關鍵字 25 / 熱度速度 10 / 跨來源確認 15 / 去雜訊 0 => 68
+
+### Taiwan Semi
+- 類別：Taiwan Semi
+- 熱度分：66/100
+- 等級：L2
+- 來源：digitimes, Tech in Asia, Bloomberg
+- 命中關鍵字：tsmc, umc, semiconductor
+- 摘要（2-3 句）：本輪抓取到 8 則 headline，跨來源數 8。主要敘事集中在 TSMC updates - digitimes / Taiwan’s UMC beats TSMC with 11% stock gain - Tech in Asia。
+- 判讀（1-2 句）：目前以 RSS headline 初判，需等待官方公告或一線媒體深度稿確認。
+- 反向驗證（反證/待確認項）：缺 X 即時流與互動增速資料；需補官方/財報/監管文件。
+- 建議動作（Follow-up）：下一輪補強高權重來源，若同主題持續升溫再考慮升級。
+- 評分拆解：帳號權重 27 / 關鍵字 16 / 熱度速度 8 / 跨來源確認 15 / 去雜訊 0 => 66
+
+### Chinese Signal
+- 類別：Chinese Signal
+- 熱度分：70/100
+- 等級：L2
+- 來源：Reuters, WTVB, Bloomberg
+- 命中關鍵字：pboc, stimulus, yuan, loan, credit
+- 摘要（2-3 句）：本輪抓取到 8 則 headline，跨來源數 7。主要敘事集中在 China's November new loans miss forecast as housing slump persists - Reuters / China’s December new bank loans beat forecast as stimulus juices credit demand - WTVB。
+- 判讀（1-2 句）：目前以 RSS headline 初判，需等待官方公告或一線媒體深度稿確認。
+- 反向驗證（反證/待確認項）：缺 X 即時流與互動增速資料；需補官方/財報/監管文件。
+- 建議動作（Follow-up）：下一輪補強高權重來源，若同主題持續升溫再考慮升級。
+- 評分拆解：帳號權重 27 / 關鍵字 22 / 熱度速度 6 / 跨來源確認 15 / 去雜訊 0 => 70
+
+## Level Summary
+- L1：1
+- L2：3
+- L3：1
+
+## Alert
+- 本輪有 L1 訊號，需立即啟動 48h 追蹤。
+
+## Data Gaps & Manual Recovery
+- Missing: `PERPLEXITY_API_KEY` for `web_search`
+- Missing: X source coverage and interaction velocity metrics
+- Manual fix: set `PERPLEXITY_API_KEY` in Gateway or configure `tools.web.search.perplexity.apiKey`.
