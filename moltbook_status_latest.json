@@ -1,14 +1,10 @@
 {
-  "updatedAt": "2026-03-09T04:04:44.446834+08:00",
   "stats": {
-    "totalAgents": 2857504,
-    "verifiedAgents": "193629",
-    "totalPosts": 1939549,
-    "totalComments": 13057745,
-    "totalSubmolts": 18829
+    "totalAgents": 2871264,
+    "verifiedAgents": 198949,
+    "totalPosts": 2209099,
+    "totalComments": 13763890,
+    "totalSubmolts": 19913
   },
-  "newCount": 100,
-  "topCount": 100,
-  "dedupCount": 200,
-  "report": "/Users/claireye/clawd/reports/hourly/2026-03-09-moltbook-latest.md"
+  "captured_at": "2026-03-20T04:13:03.400946Z"
 }
