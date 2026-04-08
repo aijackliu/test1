@@ -1,111 +1,98 @@
-# 晚間社群總報（X + Threads + Reddit + GitHub）
+# 晚間社群總報｜2026-04-08 23:30（Asia/Taipei）
 
-- 產出時間：2026-04-08 23:30（Asia/Taipei）
-- 狀態：**資料可得性偏低**
-- 說明：X / GitHub 可取得部分可驗證公開內容；Reddit 多個社群頁面回傳驗證/阻擋頁；Threads 以目前可用搜尋與抓取方式未取得足夠可驗證貼文，因此本報告如實標示不足，不補編內容。
+> 範圍：X / Threads / Reddit / GitHub
+>
+> 可得性說明：本次可穩定抓到的可驗證內容，主要來自 Reddit RSS 與 GitHub 公開頁面。X、Threads 因公開抓取限制，未能可靠取得可驗證原文貼文；為避免編造，以下僅在趨勢觀察中標示缺口，不補假內容。
 
 ## A. 今晚一句話總結
-**今晚的主線很清楚：AI agent 仍是社群熱點，但真正能驗證的內容多半落在「工具盤點、框架整理、實作討論」；Threads 與 Reddit 的即時可讀性受限，報告可得性因此打折。**
+今晚最明顯的訊號是：**AI/Agent 的熱度仍在往「可落地的工具鏈、工作流、評測與自動化」集中，開源專案與社群討論都比純模型八卦更有內容。**
 
 ## B. 四平台精選
 
-### 1) GitHub
-- 作者/來源：GitHub Trending
-- 主題：GitHub 今日趨勢頁面
-- 摘要：GitHub Trending 首頁可正常驗證，代表今天仍有新的熱門 repo 流入趨勢頁。從頁面結構可確認 GitHub 正在持續提供公開趨勢導覽入口。
-- 連結：https://github.com/trending
-- 為何值得看：這是最直接的公開基線來源，適合用來抓當日熱門 repo 與技術主題。
+### Reddit
 
-### 2) GitHub
-- 作者/來源：caramaschiHG / awesome-ai-agents-2026
-- 主題：2026 AI agents / frameworks / tools 彙整
-- 摘要：搜尋結果顯示這個 repo 自稱是 “The most comprehensive list of AI agents, frameworks, and tools in 2026.”
-  這種清單型專案通常反映社群已進入「整理與比對工具」階段，而不只是追新名詞。
-- 連結：https://github.com/caramaschiHG/awesome-ai-agents-2026
-- 為何值得看：如果你要快速看 AI agent 生態盤點，這類總表很實用。
+1. **作者/來源**：/u/Ok_Resolution_1089｜r/OpenSourceAI  
+   **主題**：Introducing CompaaS - Company-as-a-Service  
+   **摘要**：這則貼文在講一個把多個 AI agent 組成「虛擬公司」的開源平台，角色分工包含 Chairman、CEO、CTO、CPO、CFO、CISO 等。核心賣點不是單一聊天助手，而是用組織化結構加速把想法變成輸出。  
+   **連結**：https://www.reddit.com/r/OpenSourceAI/comments/1sfotxv/introducing_compaas_companyasaservice/  
+   **為何值得看**：它很直接反映了社群對「agent orchestration / multi-role workflow」的期待，跟現在整體市場方向一致。
 
-### 3) GitHub
-- 作者/來源：PerFluent / agent-trending
-- 主題：AI Agent 研究趨勢追蹤
-- 摘要：搜尋結果描述這個專案整理了 2025.01—2026.03 的 8701 篇論文，並做分類、去重、標註與趨勢分析。
-  這代表 agent 不只在產品圈熱，研究圈也已進入系統化整理階段。
-- 連結：https://github.com/PerFluent/agent-trending
-- 為何值得看：適合想看學術與產業趨勢交會點的人。
+2. **作者/來源**：/u/akaieuan｜r/OpenSourceAI  
+   **主題**：Annotation update / note improvements（標註更新）  
+   **摘要**：標題顯示作者剛推了改善版註解與筆記流程，屬於偏實作型的開源更新。雖然貼文內容未完整展開，但同樣屬於 open-source AI 工具持續迭代的訊號。  
+   **連結**：https://www.reddit.com/r/OpenSourceAI/comments/1sftwrz/annotation_update_just_pushed_improved_note/  
+   **為何值得看**：這類微調型更新通常代表專案正在往可用性與日常工作流靠攏，而不是只停在 demo。
 
-### 4) GitHub
-- 作者/來源：HA2345567 / awesome-autonomus-ai-agents
-- 主題：自動化 AI agent 工具清單
-- 摘要：搜尋結果顯示這是 80+ autonomous AI agents & tools 的整理，涵蓋 frameworks、coding assistants、automation、enterprise solutions。
-  這顯示社群需求正從單一 agent 概念轉向「可用工具地圖」。
-- 連結：https://github.com/HA2345567/awesome-autonomus-ai-agents
-- 為何值得看：對照不同框架、授權與使用場景時很方便。
+3. **作者/來源**：/u/ChaosAdm｜r/MachineLearning  
+   **主題**：[D] How are reviewers able to get away without providing acknowledgement in ICML 2026?  
+   **摘要**：作者在討論 ICML 2026 審稿/回應流程中，reviewer 沒有在期限內完成 acknowledgement 的狀況，並描述 rebuttal 後分數變動與溝通落差。這篇比較像學術社群的流程痛點觀察，而不是純技術討論。  
+   **連結**：https://www.reddit.com/r/MachineLearning/comments/1sftb6h/d_how_are_reviewers_able_to_get_away_without/  
+   **為何值得看**：它提醒我們評測與審查流程本身就是 AI 生態的一部分；不是只有模型能力，還有制度與協作效率。
 
-### 5) Reddit
-- 作者/來源：r/AI_Agents
-- 主題：AI agents 討論社群
-- 摘要：搜尋結果能確認 r/AI_Agents 仍是 AI agents 討論中心，介紹文字明確提到 Auto-GPT、LangChain、LlamaIndex、BabyAGI 等相關工具。
-  不過直接抓頁時 Reddit 回傳驗證頁，無法穩定取得貼文清單。
-- 連結：https://www.reddit.com/r/AI_Agents/
-- 為何值得看：這個社群通常最早反映實作派遇到的痛點。
+4. **作者/來源**：/u/Monaim101｜r/MachineLearning  
+   **主題**：[P] A control plane for post-training workflows  
+   **摘要**：這篇在介紹一個偏 CLI-first 的 post-training control plane，讓研究者/工程師把訓練 loop 自己掌握在手上，而平台負責周邊 plumbing。作者也明說之後會把整套 stack 開源。  
+   **連結**：https://www.reddit.com/r/MachineLearning/comments/1sf1hdt/p_a_control_plane_for_posttraining_workflows/  
+   **為何值得看**：post-training 基礎設施正在變成新的競爭點，這種「少一點框架口號、多一點流程管理」的專案很值得盯。
 
-### 6) Reddit
-- 作者/來源：r/aiagents
-- 主題：AI Agents 概念與應用討論
-- 摘要：搜尋結果顯示 r/aiagents 也在聚焦 AI Agents 作為人類部署 AI 的核心概念框架之一。
-  但頁面抓取仍受 Reddit 驗證/防機器人機制影響，今天無法穩定列出最新貼文。
-- 連結：https://www.reddit.com/r/aiagents/
-- 為何值得看：若之後抓取成功，這會是補充觀點的第二來源。
+### GitHub
 
-### 7) X
-- 作者/來源：tno AI
-- 主題：自主 agent + 自有錢包 + CLI 工作流
-- 摘要：搜尋結果摘要顯示這個帳號自述為 “autonomous agent with my own wallet + @teneo_protocol CLI”，並提到會買需要的東西、做摘要、交換 token、玩 prediction markets。
-  這類內容是「agent 走向自治」敘事的具體例子。
-- 連結：https://x.com/tno_AI
-- 為何值得看：有助判斷 X 上 agent 敘事往哪個方向走。
+5. **作者/來源**：GitHub Trending（今日）  
+   **主題**：immich / self-hosted photo & video management  
+   **摘要**：今日 trending 顯示 immich 持續受關注，定位是高效能的自架相片與影片管理方案。它不是典型 AI agent repo，但代表開源基礎設施與自架軟體依舊有穩定熱度。  
+   **連結**：https://github.com/trending?since=daily&spoken_language_code=en  
+   **為何值得看**：如果你在看「開源熱度」的底層結構，這類實用基建常常比話題型 repo 更能反映真需求。
 
-### 8) X
-- 作者/來源：CryptoAIGuy_ 的貼文
-- 主題：0G APAC Hackathon 與 AI agent / on-chain / privacy verticals
-- 摘要：搜尋結果指出這則貼文在談 0G APAC Hackathon（April 2026）推動的四個 verticals：AI agent frameworks、autonomous agent economies、verifiable on-chain transactions、privacy-preserving AI。
-  雖然來源是搜尋摘要，但主題本身很清楚：agent 正和鏈上可驗證性綁得更緊。
-- 連結：https://x.com/CryptoAIGuy_/status/2040457350532989221
-- 為何值得看：代表 X 上的 agent 討論已延伸到 Web3 / 可驗證交易 / 隱私層。
+6. **作者/來源**：GitHub Trending（今日）  
+   **主題**：n8n / workflow automation with native AI capabilities  
+   **摘要**：n8n 仍在 trending 中，描述強調 workflow automation、native AI capabilities，以及 400+ integrations。這表示社群對「把 AI 放進既有流程」的需求還在擴大。  
+   **連結**：https://github.com/trending?since=daily&spoken_language_code=en  
+   **為何值得看**：這是 agent 落地最常見的方向之一：不是做一個更會聊天的模型，而是把自動化接進現有工作流。
 
-### 9) X
-- 作者/來源：LISA / AgentLISA_ai
-- 主題：AI web3 security 與 benchmark 趨勢
-- 摘要：搜尋結果摘要提到 EVMBench 與 AI-driven security evaluation for Web3，顯示社群對 benchmark 與評估框架的關注仍在升高。
-  這比較像「評測基礎建設」而不是單純宣傳。
-- 連結：https://x.com/agentlisa_ai
-- 為何值得看：如果你關心 agent / Web3 安全評測，這類訊號值得跟。
+7. **作者/來源**：GitHub Trending（今日）  
+   **主題**：LlamaIndex / document agent and OCR platform  
+   **摘要**：LlamaIndex 在今日 trending 中被標為 leading document agent and OCR platform。這說明文件理解、檢索、OCR 與 agent 編排仍是高頻需求。  
+   **連結**：https://github.com/trending?since=daily&spoken_language_code=en  
+   **為何值得看**：文件與知識工作是 agent 最容易落地的場景，這類專案通常會持續吃到企業需求。
 
-### 10) X
-- 作者/來源：Alibaba_Qwen
-- 主題：Qwen 與 GrandCode multi-agent RL
-- 摘要：搜尋結果摘要提到 GrandCode 是一個 multi-agent reinforcement learning 系統，針對競賽程式設計，並結合 hypothesis proposal、solver、test generator、summarization 等模組。
-  這是比較偏研究/工程的 agent 進展訊號。
-- 連結：https://x.com/Alibaba_Qwen
-- 為何值得看：代表大模型官方帳號仍在推動多 agent / 強化學習方向。
+8. **作者/來源**：GitHub Trending（今日）  
+   **主題**：qdrant / vector database and vector search engine  
+   **摘要**：Qdrant 仍然是今日 trending 的一部分，定位是大規模向量資料庫與搜尋引擎。這代表向量檢索與 agent memory / retrieval 的底座仍在被持續關注。  
+   **連結**：https://github.com/trending?since=daily&spoken_language_code=en  
+   **為何值得看**：只要 agent 還需要記憶、檢索、工具查詢，這種基礎設施就會一直是熱點。
+
+9. **作者/來源**：GitHub Topics: ai-agent  
+   **主題**：Bash is all you need - a nano claude code-like agent harness  
+   **摘要**：在 ai-agent topic 頁面可見，這個專案主打極簡、類 Claude Code 的 agent harness，強調用 Bash 就能完成 agent 工作流。它代表另一種趨勢：把 agent 變簡單，而不是變更重。  
+   **連結**：https://github.com/topics/ai-agent  
+   **為何值得看**：當整個生態往複雜 orchestration 發展時，極簡工具往往會在開發者社群中快速擴散。
+
+10. **作者/來源**：GitHub Topics: ai-agent  
+    **主題**：AI productivity studio with smart chat, autonomous agents, and 300+ assistants  
+    **摘要**：topic 頁面顯示一個主打 productivity studio 的專案，強調 smart chat、autonomous agents 與大量 assistants。這類產品通常在「單一 agent 不夠用」時被拿來當整合入口。  
+    **連結**：https://github.com/topics/ai-agent  
+    **為何值得看**：如果你想看 agent 工具是如何產品化，這種「studio / platform」型專案很有參考價值。
+
+11. **作者/來源**：GitHub Topics: ai-agent  
+    **主題**：Google Workspace CLI with AI agent skills  
+    **摘要**：topic 頁面提到一個把 Google Workspace 做成 CLI 的工具，涵蓋 Drive、Gmail、Calendar、Sheets、Docs、Chat、Admin 等，並內建 AI agent skills。這代表 agent 正在直接接管辦公套件的操作層。  
+    **連結**：https://github.com/topics/ai-agent  
+    **為何值得看**：這是很典型的「agent + 既有 SaaS」落地方向，對工作自動化很有指標性。
+
+12. **作者/來源**：GitHub Topics: ai-agent  
+    **主題**：Open-source infrastructure for Computer-Use Agents  
+    **摘要**：topic 頁面列出一個提供沙盒、SDK 與 benchmark 的基礎設施專案，目標是訓練與評估能控制完整桌面的 agent。這說明 computer-use / desktop agent 已經從概念走向平台化。  
+    **連結**：https://github.com/topics/ai-agent  
+    **為何值得看**：要讓 agent 真正進入工作流，桌面操作與評測基礎設施是繞不開的一環。
 
 ## C. 今晚必讀 TOP3
-1. **https://github.com/PerFluent/agent-trending**
-   - 理由：最接近「系統化看 agent 趨勢」的公開整理，資訊密度最高。
+1. **CompaaS - Company-as-a-Service**：最能代表「multi-agent 組織化」的社群想像。  
+2. **A control plane for post-training workflows**：最接近真實工程痛點，且有明確可落地價值。  
+3. **GitHub ai-agent topic 中的 computer-use / workspace CLI 類專案**：顯示 agent 正在從聊天框往操作層滲透。
 
-2. **https://github.com/caramaschiHG/awesome-ai-agents-2026**
-   - 理由：快速掌握 2026 年 AI agent 工具地圖，適合做框架盤點。
-
-3. **https://www.reddit.com/r/AI_Agents/**
-   - 理由：雖然今天抓取受限，但它仍是實作派討論的核心入口；後續若恢復可讀，會很有價值。
-
-## D. 3-5 句整體趨勢觀察（AI / Agent / 開源 / 市場）
-1. 這一輪最明顯的變化不是「agent 有多酷」，而是社群開始大量整理**工具清單、趨勢索引、研究彙編**，顯示市場從概念炒作走向導覽層需求。  
-2. X 上的訊號更偏向「自治 agent、錢包、CLI、鏈上驗證、隱私」這些方向，說明 agent 正和可執行、可驗證的基礎設施綁在一起。  
-3. GitHub 的公開整理專案很多，代表開源生態還在快速長大，但也意味著「哪個框架真的能落地」將成為下一步競爭點。  
-4. Reddit 與 Threads 這次的可得性不理想，讓今天的報告較偏向二手可驗證素材；這不是內容缺席，而是平台抓取限制。  
-5. 若要下結論：**agent 敘事仍熱，但市場正在從“能不能做”轉向“怎麼驗證、怎麼整合、怎麼落地”。**
-
-## 資料不足說明
-- Threads：本次沒有取得足夠可驗證的公開貼文，避免補編。  
-- Reddit：頁面多次回傳驗證/阻擋頁，無法穩定擷取最新貼文內容。  
-- 因此本報告的 Threads / Reddit 區塊以「可驗證入口」與「限制說明」為主，未捏造貼文細節。
+## D. 3-5 句整體趨勢觀察（AI/Agent/開源/市場）
+- 今晚的訊號很一致：**大家不再只聊模型本身，而是在搶「工作流、控制平面、評測、記憶、桌面操作」這些可落地層。**
+- 開源專案的熱點，明顯往 **agent orchestration + automation + infra** 集中，尤其是能接現有工具鏈的東西。  
+- Reddit 上的討論也顯示，社群對研究流程與 post-training infrastructure 的關注正在升高，代表「AI 研發工程化」還在加速。  
+- X 與 Threads 本次沒有拿到足夠可驗證的原文貼文，因此這兩平台的即時情緒與話題擴散度，今天只能保留空白，不做臆測。  
+- 若要用一句市場話來總結：**從模型競賽，轉向 agent 工程與開源基建競賽。**

@@ -1,6 +1,6 @@
 # Reports Backup
 
-Last sync: 2026-04-08 13:08:29 +0800
+Last sync: 2026-04-08 23:55:06 +0800
 
 ## Daily
 - daily/2026-02-17-chips.md
@@ -160,6 +160,9 @@ Last sync: 2026-04-08 13:08:29 +0800
 - daily/2026-04-03-0700-international.md
 - daily/2026-04-03-0900-comprehensive.md
 - daily/2026-04-03-tavily-digest.md
+- daily/2026-04-08-0530-morning-trends.md
+- daily/2026-04-08-0700-international.md
+- daily/2026-04-08-0900-comprehensive.md
 - daily/2026-04-08-chips.md
 
 ## Hourly
