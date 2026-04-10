@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "error": "No usable post blocks extracted. Possible login wall, rate limit, or changed DOM.",
+  "url": "https://www.threads.com/login/?next=https%3A%2F%2Fwww.threads.com%2F%40demo%2F",
+  "body_preview": "掃描即可下載應用程式\n使用 Instagram 帳號登入\n登入\n忘記密碼？\n或\n使用 Instagram 帳號繼續\n© 2026\n《Threads 使用條款》\n《隱私政策》\n《Cookie 政策》\n回報問題",
+  "posts": []
+}
