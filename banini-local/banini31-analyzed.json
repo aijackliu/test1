@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "username": "banini31",
+  "stage": "analyze",
+  "error": "401 Unauthorized: Missing bearer or basic authentication in header"
+}
