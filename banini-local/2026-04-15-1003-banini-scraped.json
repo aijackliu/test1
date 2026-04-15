@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "error": "No usable post blocks extracted. Possible login wall, rate limit, or changed DOM.",
+  "url": "https://www.threads.com/@banini31",
+  "body_preview": "",
+  "posts": [],
+  "extractor": "none"
+}
