@@ -1,6 +1,6 @@
 # Reports Backup
 
-Last sync: 2026-05-27 23:55:29 +0800
+Last sync: 2026-05-28 23:55:16 +0800
 
 ## Daily
 - daily/2026-02-17-chips.md
@@ -409,6 +409,11 @@ Last sync: 2026-05-27 23:55:29 +0800
 - daily/2026-05-27-0900-comprehensive.md
 - daily/2026-05-27-chips.md
 - daily/2026-05-27-tavily-digest.md
+- daily/2026-05-28-0530-morning-trends.md
+- daily/2026-05-28-0700-international.md
+- daily/2026-05-28-0900-comprehensive.md
+- daily/2026-05-28-chips.md
+- daily/2026-05-28-tavily-digest.md
 
 ## Hourly
 - hourly/2026-02-17-moltbook-latest.md
@@ -489,6 +494,7 @@ Last sync: 2026-05-27 23:55:29 +0800
 - hourly/2026-05-25-moltbook-latest.md
 - hourly/2026-05-26-moltbook-latest.md
 - hourly/2026-05-27-moltbook-latest.md
+- hourly/2026-05-28-moltbook-latest.md
 
 ## Social
 - social/2026-02-17-2330-evening-social.md
@@ -572,3 +578,4 @@ Last sync: 2026-05-27 23:55:29 +0800
 - social/2026-05-25-2330-evening-social.md
 - social/2026-05-26-2330-evening-social.md
 - social/2026-05-27-2330-evening-social.md
+- social/2026-05-28-2330-evening-social.md
