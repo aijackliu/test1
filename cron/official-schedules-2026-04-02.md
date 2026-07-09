@@ -66,11 +66,13 @@
 - delivery: `discord -> channel:1466454011866779650`
 - 說明: 午後期貨與選擇權分析
 
-### 16:00 — daily_liquidity_check
+### 16:00 — daily_liquidity_check（已取消）
 - ID: `53a9c17c-ae3e-461b-a79c-fb0e27c52440`
+- 狀態: `disabled`
 - 模型: `openai-codex/gpt-5.4`
 - delivery: `discord -> channel:1466454011866779650`
 - 說明: 市場流動性檢查
+- 備註: 2026-07-09 依 jack 指示取消排程
 
 ### 18:00 — AI Builders Digest
 - ID: `263a36c0-ee1b-4c7f-9920-d9f4696d0547`
@@ -78,11 +80,13 @@
 - delivery: `discord -> channel:1466454011866779650`
 - 說明: follow-builders digest 工作流摘要
 
-### 21:30 — Threads Daily Auto Publish Clean
+### 21:30 — Threads Daily Auto Publish Clean（已取消）
 - ID: `cad89313-712e-46c9-995a-6b40c26c9f34`
+- 狀態: `disabled`
 - 模型: `openai-codex/gpt-5.4`
 - delivery: `last -> channel:1466454011866779650`
 - 說明: 每日 Threads 草稿/自動發布
+- 備註: 2026-07-09 依 jack 指示取消排程
 
 ### 23:30 — 晚間社群總報（X+Threads+Reddit+GitHub）
 - ID: `1de505f9-f38f-4524-8008-74123f037218`
@@ -108,11 +112,13 @@
 - 說明: 喚醒主會話執行 Moltbook 定期分析
 - 備註: 目前不是直接 announce 到 Discord
 
-### 每 2 天 10:00 — influencer_watch
+### 每 2 天 10:00 — influencer_watch（已取消）
 - ID: `9c78c47e-2dc3-429f-9d2b-aa957fb34742`
+- 狀態: `disabled`
 - 模型: `openai-codex/gpt-5.4`
 - delivery: `discord -> channel:1466454011866779650`
 - 說明: Moltbot / AI 影響者追蹤
+- 備註: 2026-07-09 依 jack 指示取消排程
 
 ### 每週六 11:00 — weekly_m4_benchmark
 - ID: `bbe739a1-db4b-4cce-9f31-39f9ce795000`
